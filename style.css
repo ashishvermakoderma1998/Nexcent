@@ -1,0 +1,121 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* ----------navbar------------- */
+nav.navbar {
+    margin: 30px;
+}
+
+
+
+ul.nav-list {
+    display: flex;
+    gap: 33px;
+}
+
+
+.nav-container {
+    display: flex;
+    
+}
+
+.nav-links {
+    display: flex;
+    padding-left: 510px;
+    gap: 20px;
+    line-height: 27px;
+    font-size: 24px;
+
+}
+
+button.register-btn {
+    background: green;
+    padding: 5px;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-left: 34px;
+}
+
+img {
+    width: 149px;
+    height: 27px;
+}
+
+a.nav-link {
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+/* -----------main------------- */
+.hero-container {
+    display: flex;
+    
+}
+
+.hero-text h2 {
+    font-size: 55px;
+    font-family: math;
+}
+
+
+.hero-text h2:nth-child(2) {
+  color: green;
+}
+
+.hero-container {
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+img.banner-img {
+    width: 300px;
+    height: 310px;
+}
+
+.hero-banner {
+    padding-left: 298px;
+}
+
+.register-btn2 {
+padding-top: 20px;
+line-height: 27px;
+    padding: 5px;
+ background: green;
+ margin-top: 40px;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-left: 34px;
+
+}
+
+/* --------------Clients----------------- */
+
+.client-text h2 ,p {
+   
+    font-weight: 100;
+    text-align: center;
+}
+
+.client-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img.client-img {
+    width: 55px;
+    height: 42px;
+    margin-top:35px;    
+}
+
